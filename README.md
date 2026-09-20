@@ -56,7 +56,7 @@ spec:
           readOnly: true
 ```
 
-Retrieve the result to your desktop:
+### Retrieve the result to your desktop:
 hashdeep-script.sh
 ```#!/usr/bin/env bash
 set -euo pipefail
