@@ -32,7 +32,7 @@ spec:
       restartPolicy: Never
       containers:
         - name: hashdeep
-          image: ghcr.io/<your-username>/hashdeep-image:latest
+          image: ghcr.io/moorgrove/hashdeep-image:latest
           args: ["-r", "-j", "0", "-o", "f", "/data"]
           volumeMounts:
             - name: data
